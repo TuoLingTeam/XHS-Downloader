@@ -435,12 +435,8 @@ msgstr ""
 msgid "关于项目"
 msgstr ""
 
-#: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:49
-msgid "开源协议: "
-msgstr ""
-
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:52
-msgid "项目地址: "
+msgid "微信公众号：驼铃电商技术团"
 msgstr ""
 
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:59

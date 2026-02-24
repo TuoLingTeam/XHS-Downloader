@@ -46,14 +46,11 @@ class Index(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield ScrollableContainer(
-            Label(Text(_("开源协议: ") + LICENCE, style=MASTER)),
-            Link(
+            Label(
                 Text(
-                    _("项目地址: ") + REPOSITORY,
+                    _("微信公众号：驼铃电商技术团"),
                     style=MASTER,
                 ),
-                url=REPOSITORY,
-                tooltip=_("点击访问"),
             ),
             Label(
                 Text(_("请输入小红书图文/视频作品链接，然后点击“下载作品文件”按钮"), style=PROMPT),

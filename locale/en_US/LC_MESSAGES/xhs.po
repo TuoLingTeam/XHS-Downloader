@@ -464,13 +464,9 @@ msgstr "Monitor"
 msgid "关于项目"
 msgstr "About"
 
-#: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:49
-msgid "开源协议: "
-msgstr "Open source protocol: "
-
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:52
-msgid "项目地址: "
-msgstr "Repository link: "
+msgid "微信公众号：驼铃电商技术团"
+msgstr "WeChat Official Account: TuoLing E-commerce Tech Team"
 
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:59
 msgid "请输入小红书图文/视频作品链接，然后点击“下载作品文件”按钮"
@@ -510,14 +506,11 @@ msgstr ""
 "and comply with these license agreements accordingly. The author assumes no "
 "responsibility for the stability, security, or compliance of any third-party "
 "components.\n"
-"4.When using this project, users must strictly comply with the requirements "
-"of the GNU General Public License v3.0 and clearly indicate in appropriate "
-"places that the code was used under the GNU General Public License v3.0.\n"
-"5.When using the code and functionalities of this project, users must "
+"4.When using the code and functionalities of this project, users must "
 "independently research relevant laws and regulations and ensure that their "
 "usage is legal and compliant. Any legal liabilities or risks arising from "
 "violations of laws and regulations shall be borne solely by the user.\n"
-"6.Users must not use this tool to engage in any activities that infringe "
+"5.Users must not use this tool to engage in any activities that infringe "
 "intellectual property rights, including but not limited to downloading or "
 "distributing copyrighted content without authorization. Developers do not "
 "participate in, support, or endorse the acquisition or distribution of any "
