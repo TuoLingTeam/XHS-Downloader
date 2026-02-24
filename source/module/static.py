@@ -10,9 +10,9 @@ PROJECT = f"XHS-Downloader V{VERSION_MAJOR}.{VERSION_MINOR} {
     'Beta' if VERSION_BETA else 'Stable'
 }"
 
-REPOSITORY = "https://github.com/JoeanAmier/XHS-Downloader"
+REPOSITORY = "https://github.com/TuoLingTeam/XHS-Downloader"
 LICENCE = "GNU General Public License v3.0"
-RELEASES = "https://github.com/JoeanAmier/XHS-Downloader/releases/latest"
+RELEASES = "https://github.com/TuoLingTeam/XHS-Downloader/releases/latest"
 
 USERSCRIPT = "https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/XHS-Downloader.js"
 

@@ -56,7 +56,7 @@ class Index(Screen):
                 tooltip=_("点击访问"),
             ),
             Label(
-                Text(_("请输入小红书图文/视频作品链接"), style=PROMPT),
+                Text(_("请输入小红书图文/视频作品链接，然后点击“下载作品文件”按钮"), style=PROMPT),
                 classes="prompt",
             ),
             Input(placeholder=_("多个链接之间使用空格分隔")),

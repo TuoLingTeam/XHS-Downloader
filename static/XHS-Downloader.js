@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           XHS-Downloader
 // @namespace      xhs_downloader
-// @homepage       https://github.com/JoeanAmier/XHS-Downloader
+// @homepage       https://github.com/TuoLingTeam/XHS-Downloader
 // @version        2.3.1
 // @tag            小红书
 // @tag            RedNote
@@ -25,7 +25,7 @@
 // @run-at         document-end
 // @updateURL      https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/XHS-Downloader.js
 // @downloadURL    https://raw.githubusercontent.com/JoeanAmier/XHS-Downloader/master/static/XHS-Downloader.js
-// @supportURL     https://github.com/JoeanAmier/XHS-Downloader/issues
+// @supportURL     https://github.com/TuoLingTeam/XHS-Downloader/issues
 // @require        https://cdnjs.cloudflare.com/ajax/libs/jszip/3.9.1/jszip.min.js
 // ==/UserScript==
 
@@ -55,7 +55,7 @@
 8. 使用全局代理工具可能会导致脚本下载文件失败，如有异常，请尝试关闭代理工具，必要时向作者反馈
 9. XHS-Downloader 用户脚本仅实现可见即可得的数据采集功能，无任何收费功能和破解功能
 
-项目开源地址：https://github.com/JoeanAmier/XHS-Downloader
+项目开源地址：https://github.com/TuoLingTeam/XHS-Downloader
 `,
             disclaimerText: `1. 使用者对本项目的使用由使用者自行决定，并自行承担风险。作者对使用者使用本项目所产生的任何损失、责任、或风险概不负责。
 2. 本项目的作者提供的代码和功能是基于现有知识和技术的开发成果。作者按现有技术水平努力确保代码的正确性和安全性，但不保证代码完全没有错误或缺陷。
@@ -78,20 +78,18 @@
             disclaimerConfirm: '我已知晓',
             readmeMenuTitle: "阅读脚本说明和免责声明",
             aboutText: `项目开源协议：GNU General Public License v3.0
-项目开源地址：https://github.com/JoeanAmier/XHS-Downloader
+项目开源地址：https://github.com/TuoLingTeam/XHS-Downloader
 
 如果 XHS-Downloader 对您有帮助，请考虑为它点个 Star ⭐，感谢您的支持！
 
 ✨ 作者的其他开源项目：
 
 DouK-Downloader（抖音、DouYin、TikTok）：https://github.com/JoeanAmier/TikTokDownloader
-KS-Downloader（快手、KuaiShou）：https://github.com/JoeanAmier/KS-Downloader
-
-项目 Discord 社区：https://discord.com/invite/ZYtmgKud9Y
+KS-Downloader（快手、KuaiShou）：https://github.com/TuoLingTeam/KS-Downloader
 `,
             aboutTitle: '关于 XHS-Downloader',
             errorTitle: '发生异常',
-            errorText: (text) => `${text}请向作者反馈！\n项目开源地址：https://github.com/JoeanAmier/XHS-Downloader`,
+            errorText: (text) => `${text}请向作者反馈！\n项目开源地址：https://github.com/TuoLingTeam/XHS-Downloader`,
             imageExtractError: "解析图文作品数据发生异常！",
             downloadLinkError: "处理下载链接发生异常！",
             downloadTips: "正在下载文件，请稍等...",
@@ -183,7 +181,7 @@ Notes:
 8. Using global proxy tools may cause download failures. If issues occur, try disabling the proxy and provide feedback to the author if necessary.
 9. The XHS-Downloader userscript only provides "what you see is what you get" data collection; it contains no paid features or decryption/cracking functions.
 
-Open Source: https://github.com/JoeanAmier/XHS-Downloader
+Open Source: https://github.com/TuoLingTeam/XHS-Downloader
 `,
             disclaimerText: `1. The use of this project is at the user's own discretion and risk. The author is not responsible for any loss, liability, or risk arising from its use.
 2. The code and functions provided are based on existing knowledge and technology. While efforts are made to ensure correctness and security, the author does not guarantee that the code is entirely error-free.
@@ -206,20 +204,18 @@ Before using this project, please carefully consider and accept the above discla
             disclaimerConfirm: 'I acknowledge',
             readmeMenuTitle: "Read Instructions and Disclaimer",
             aboutText: `License: GNU General Public License v3.0
-GitHub: https://github.com/JoeanAmier/XHS-Downloader
+GitHub: https://github.com/TuoLingTeam/XHS-Downloader
 
 If XHS-Downloader helps you, please consider giving it a Star ⭐. Thanks for your support!
 
 ✨ Other Projects by the Author:
 
 DouK-Downloader (DouYin, TikTok): https://github.com/JoeanAmier/TikTokDownloader
-KS-Downloader (KuaiShou): https://github.com/JoeanAmier/KS-Downloader
-
-Discord Community: https://discord.com/invite/ZYtmgKud9Y
+KS-Downloader (KuaiShou): https://github.com/TuoLingTeam/KS-Downloader
 `,
             aboutTitle: 'About XHS-Downloader',
             errorTitle: 'Exception Occurred',
-            errorText: (text) => `${text} Please report this to the author!\nGitHub: https://github.com/JoeanAmier/XHS-Downloader`,
+            errorText: (text) => `${text} Please report this to the author!\nGitHub: https://github.com/TuoLingTeam/XHS-Downloader`,
             imageExtractError: "Error parsing image note data!",
             downloadLinkError: "Error processing download links!",
             downloadTips: "Downloading file, please wait...",

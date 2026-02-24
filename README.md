@@ -77,7 +77,7 @@
 <p>如果仅需下载作品文件，建议选择 <b>程序运行</b> 或 <b>Docker 运行</b>；如果有其他需求，建议选择 <b>源码运行</b>！</p>
 <p>⚠️ 未设置 Cookie 时，视频作品只能下载低分辨率文件；建议配置 Cookie 以获取更高画质（无需登录账号）！</p>
 <h2>🖱 程序运行</h2>
-<p>⭐ Mac OS、Windows 10 及以上用户可前往 <a href="https://github.com/JoeanAmier/XHS-Downloader/releases/latest">Releases</a> 或者 <a href="https://github.com/JoeanAmier/XHS-Downloader/actions">Actions</a> 下载程序压缩包，解压后打开程序文件夹，双击运行 <code>main</code> 即可使用。</p>
+<p>⭐ Mac OS、Windows 10 及以上用户可前往 <a href="https://github.com/TuoLingTeam/XHS-Downloader/releases/latest">Releases</a> 或者 <a href="https://github.com/TuoLingTeam/XHS-Downloader/actions">Actions</a> 下载程序压缩包，解压后打开程序文件夹，双击运行 <code>main</code> 即可使用。</p>
 <p>⭐ 本项目包含自动构建可执行文件的 GitHub Actions，使用者可以随时使用 GitHub Actions 将最新源码构建为可执行文件！</p>
 <p>⭐ 自动构建可执行文件教程请查阅本文档的 <code>构建可执行文件指南</code> 部分；如果需要更加详细的图文教程，请 <a href="https://mp.weixin.qq.com/s/TorfoZKkf4-x8IBNLImNuw">查阅文章</a>！</p>
 <p><strong>注意：由于 Mac OS 平台的可执行文件 <code>main</code> 未经过代码签名，首次运行时会受到系统安全限制。请先在终端执行 <code>xattr -cr 项目文件夹路径</code> 命令移除安全标记，执行一次后即可正常运行。</strong></p>
@@ -88,7 +88,7 @@
 <h2>⌨️ 源码运行</h2>
 <ol>
 <li>安装 <code>≥3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>
-<li>下载最新的源码或 <a href="https://github.com/JoeanAmier/XHS-Downloader/releases/latest">Releases</a> 发布的源码至本地</li>
+<li>下载最新的源码或 <a href="https://github.com/TuoLingTeam/XHS-Downloader/releases/latest">Releases</a> 发布的源码至本地</li>
 <ol><b>使用 pip 安装项目依赖</b>
 <li>运行 <code>python -m venv venv</code> 命令创建虚拟环境（可选）</li>
 <li>运行 <code>.\venv\Scripts\activate.ps1</code> 或者 <code>venv\Scripts\activate</code> 命令激活虚拟环境（可选）</li>
@@ -604,7 +604,7 @@ A:
 
 - 检查运行日志，了解失败原因
 - 确保代码没有语法错误或依赖问题
-- 如果问题仍未解决，可以在本仓库的 [Issues 页面](https://github.com/JoeanAmier/XHS-Downloader/issues) 提出问题
+- 如果问题仍未解决，可以在本仓库的 [Issues 页面](https://github.com/TuoLingTeam/XHS-Downloader/issues) 提出问题
 
 ### Q3: 我可以直接使用主仓库的 Actions 吗？
 
@@ -654,14 +654,13 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 <li>作者邮箱：yonglelolu@foxmail.com</li>
 <li>作者微信: Downloader_Tools</li>
 <li>微信公众号: Downloader Tools</li>
-<li><b>Discord 社区</b>: <a href="https://discord.com/invite/ZYtmgKud9Y">点击加入社区</a></li>
-<li>QQ 群聊: <a href="https://github.com/JoeanAmier/XHS-Downloader/blob/master/static/QQ%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png">扫码加入群聊</a></li>
+<li>QQ 群聊: <a href="https://github.com/TuoLingTeam/XHS-Downloader/blob/master/static/QQ%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png">扫码加入群聊</a></li>
 </ul>
 <p><b>说明：</b>QQ 群聊仅限于讨论项目使用问题，严禁发布任何广告，严禁讨论任何账号交易、账号流量、流量变现、灰色产业等相关的内容！</p>
 <p>✨ <b>作者的其他开源项目：</b></p>
 <ul>
 <li><b>DouK-Downloader（抖音、TikTok）</b>：<a href="https://github.com/JoeanAmier/TikTokDownloader">https://github.com/JoeanAmier/TikTokDownloader</a></li>
-<li><b>KS-Downloader（快手、KuaiShou）</b>：<a href="https://github.com/JoeanAmier/KS-Downloader">https://github.com/JoeanAmier/KS-Downloader</a></li>
+<li><b>KS-Downloader（快手、KuaiShou）</b>：<a href="https://github.com/TuoLingTeam/KS-Downloader">https://github.com/TuoLingTeam/KS-Downloader</a></li>
 </ul>
 
 # 💰 项目赞助
@@ -681,9 +680,9 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 <li>使用者对本项目的使用由使用者自行决定，并自行承担风险。作者对使用者使用本项目所产生的任何损失、责任、或风险概不负责。</li>
 <li>本项目的作者提供的代码和功能是基于现有知识和技术的开发成果。作者按现有技术水平努力确保代码的正确性和安全性，但不保证代码完全没有错误或缺陷。</li>
 <li>本项目依赖的所有第三方库、插件或服务各自遵循其原始开源或商业许可，使用者需自行查阅并遵守相应协议，作者不对第三方组件的稳定性、安全性及合规性承担任何责任。</li>
-<li>使用者在使用本项目时必须严格遵守 <a href="https://github.com/JoeanAmier/XHS-Downloader/blob/master/LICENSE">GNU
+<li>使用者在使用本项目时必须严格遵守 <a href="https://github.com/TuoLingTeam/XHS-Downloader/blob/master/LICENSE">GNU
     General Public License v3.0</a> 的要求，并在适当的地方注明使用了 <a
-        href="https://github.com/JoeanAmier/XHS-Downloader/blob/master/LICENSE">GNU General Public License
+        href="https://github.com/TuoLingTeam/XHS-Downloader/blob/master/LICENSE">GNU General Public License
     v3.0</a> 的代码。
 </li>
 <li>使用者在使用本项目的代码和功能时，必须自行研究相关法律法规，并确保其使用行为合法合规。任何因违反法律法规而导致的法律责任和风险，均由使用者自行承担。</li>

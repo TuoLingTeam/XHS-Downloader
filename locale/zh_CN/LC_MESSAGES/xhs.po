@@ -407,14 +407,6 @@ msgstr ""
 msgid "如果 XHS-Downloader 对您有帮助，请考虑为它点个 Star，感谢您的支持！"
 msgstr ""
 
-#: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\about.py:42
-msgid "Discord 社区"
-msgstr ""
-
-#: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\about.py:46
-msgid "邀请链接："
-msgstr ""
-
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\about.py:48
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\about.py:61
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\about.py:70
@@ -452,7 +444,7 @@ msgid "项目地址: "
 msgstr ""
 
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:59
-msgid "请输入小红书图文/视频作品链接"
+msgid "请输入小红书图文/视频作品链接，然后点击“下载作品文件”按钮"
 msgstr ""
 
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:62

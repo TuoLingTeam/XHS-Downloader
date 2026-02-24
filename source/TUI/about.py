@@ -39,15 +39,6 @@ class About(Screen):
             classes="prompt",
         )
         yield Label(
-            Text(_("Discord 社区"), style=PROMPT),
-            classes="prompt",
-        )
-        yield Link(
-            _("邀请链接：") + "https://discord.com/invite/ZYtmgKud9Y",
-            url="https://discord.com/invite/ZYtmgKud9Y",
-            tooltip=_("点击访问"),
-        )
-        yield Label(
             Text(_("作者的其他开源项目"), style=PROMPT),
             classes="prompt",
         )
@@ -56,8 +47,8 @@ class About(Screen):
             classes="prompt",
         )
         yield Link(
-            "https://github.com/JoeanAmier/TikTokDownloader",
-            url="https://github.com/JoeanAmier/TikTokDownloader",
+            "https://github.com/TuoLingTeam/TikTokDownloader",
+            url="https://github.com/TuoLingTeam/TikTokDownloader",
             tooltip=_("点击访问"),
         )
         yield Label(
@@ -65,8 +56,8 @@ class About(Screen):
             classes="prompt",
         )
         yield Link(
-            "https://github.com/JoeanAmier/KS-Downloader",
-            url="https://github.com/JoeanAmier/KS-Downloader",
+            "https://github.com/TuoLingTeam/KS-Downloader",
+            url="https://github.com/TuoLingTeam/KS-Downloader",
             tooltip=_("点击访问"),
         )
         yield Footer()

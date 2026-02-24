@@ -78,7 +78,7 @@
 <p>If you only need to download notes files, it is recommended to choose <b>Program Run</b>; if you have other needs, it is recommended to choose <b>Source Code Run</b>!</p>
 <p>⚠️ When Cookie is not set, video works can only be downloaded in low resolution; it is recommended to configure Cookie to obtain higher quality (no need to log in to the account)!</p>
 <h2>🖱 Program Run</h2>
-<p>⭐ Mac OS, Windows 10 and above users can go to <a href="https://github.com/JoeanAmier/XHS-Downloader/releases/latest">Releases</a> or <a href="https://github.com/JoeanAmier/XHS-Downloader/actions">Actions</a> to download the program package, unzip it, open the program folder, and double-click to run <code>main</code> to use.</p>
+<p>⭐ Mac OS, Windows 10 and above users can go to <a href="https://github.com/TuoLingTeam/XHS-Downloader/releases/latest">Releases</a> or <a href="https://github.com/TuoLingTeam/XHS-Downloader/actions">Actions</a> to download the program package, unzip it, open the program folder, and double-click to run <code>main</code> to use.</p>
 <p>⭐ This project includes GitHub Actions for automatic building executable files. Users can use GitHub Actions to build the latest source code into executable files at any time!</p>
 <p>⭐ For the automatic building executable files tutorial, please refer to the <code>Build of Executable File Guide</code> section of this document. If you need a more detailed step-by-step tutorial with illustrations, please <a href="https://mp.weixin.qq.com/s/TorfoZKkf4-x8IBNLImNuw">check out this article</a>!</p>
 <p><strong>Note: Due to the macOS platform's executable file <code>main</code> not being code-signed, it will be restricted by system security measures on first run. Please execute the command <code>xattr -cr project_folder_path</code> in the terminal to remove the security flag, after which it can run normally.</strong></p>
@@ -89,7 +89,7 @@
 <h2>⌨️ Run from Source Code</h2>
 <ol>
 <li>Install <a href="https://www.python.org/">Python</a> interpreter version <code>≥3.12</code></li>
-<li>Download the latest source code or the source code released in <a href="https://github.com/JoeanAmier/XHS-Downloader/releases/latest">Releases</a> to your local machine</li>
+<li>Download the latest source code or the source code released in <a href="https://github.com/TuoLingTeam/XHS-Downloader/releases/latest">Releases</a> to your local machine</li>
 <ol><b>Install project dependencies using pip</b>
 <li>Run the command <code>python -m venv venv</code> to create a virtual environment (optional)</li>
 <li>Run the command <code>.\venv\Scripts\activate.ps1</code> or <code>venv\Scripts\activate</code> to activate the virtual environment (optional)</li>
@@ -632,7 +632,7 @@ A:
 - Check the run logs to understand the cause of the failure
 - Ensure there are no syntax errors or dependency issues in the code
 - If the problem persists, please open an issue on
-  the [Issues page](https://github.com/JoeanAmier/XHS-Downloader/issues)
+  the [Issues page](https://github.com/TuoLingTeam/XHS-Downloader/issues)
 
 ### Q3: Can I directly use the Actions from the main repository?
 
@@ -681,12 +681,11 @@ repository to execute the build process
 <ul>
 <li>Author's Email：yonglelolu@foxmail.com</li>
 <li>Author's WeChat: Downloader_Tools</li>
-<li><b>Discord Community</b>: <a href="https://discord.com/invite/ZYtmgKud9Y">Click to Join the Community</a></li>
 </ul>
 <p>✨ <b>Other Open Source Projects by the Author:</b></p>
 <ul>
 <li><b>DouK-Downloader（抖音、TikTok）</b>：<a href="https://github.com/JoeanAmier/TikTokDownloader">https://github.com/JoeanAmier/TikTokDownloader</a></li>
-<li><b>KS-Downloader（快手、KuaiShou）</b>：<a href="https://github.com/JoeanAmier/KS-Downloader">https://github.com/JoeanAmier/KS-Downloader</a></li>
+<li><b>KS-Downloader（快手、KuaiShou）</b>：<a href="https://github.com/TuoLingTeam/KS-Downloader">https://github.com/TuoLingTeam/KS-Downloader</a></li>
 </ul>
 
 # 💰 Project Sponsorship
@@ -706,7 +705,7 @@ repository to execute the build process
 <li>The user's use of this project is entirely at their own discretion and responsibility. The author assumes no liability for any losses, claims, or risks arising from the user's use of this project.</li>
 <li>The code and functionalities provided by the author of this project are based on current knowledge and technological developments. The author strives to ensure the correctness and security of the code according to existing technical capabilities but does not guarantee that the code is entirely free of errors or defects.</li>
 <li>All third-party libraries, plugins, or services relied upon by this project follow their respective open-source or commercial licenses. Users must review and comply with those license agreements. The author assumes no responsibility for the stability, security, or compliance of third-party components.</li>
-<li>Users must strictly comply with the requirements of the <a href="https://github.com/JoeanAmier/XHS-Downloader/blob/master/LICENSE">GNU General Public License v3.0</a> when using this project and properly indicate that the code was used under the <a href="https://github.com/JoeanAmier/XHS-Downloader/blob/master/LICENSE">GNU General Public License v3.0</a>.</li>
+<li>Users must strictly comply with the requirements of the <a href="https://github.com/TuoLingTeam/XHS-Downloader/blob/master/LICENSE">GNU General Public License v3.0</a> when using this project and properly indicate that the code was used under the <a href="https://github.com/TuoLingTeam/XHS-Downloader/blob/master/LICENSE">GNU General Public License v3.0</a>.</li>
 <li>When using the code and features of this project, users must independently research relevant laws and regulations and ensure their actions are legal and compliant. Any legal liabilities or risks arising from violations of laws and regulations shall be borne solely by the user.</li>
 <li>Users must not use this tool to engage in any activities that infringe intellectual property rights, including but not limited to downloading or distributing copyright-protected content without authorization. The developers do not participate in, support, or endorse any unauthorized acquisition or distribution of illegal content.</li>
 <li>This project assumes no responsibility for the compliance of any data processing activities (including collection, storage, and transmission) conducted by users. Users must comply with relevant laws and regulations and ensure that their processing activities are lawful and proper. Legal liabilities resulting from non-compliant operations shall be borne by the user.</li>
