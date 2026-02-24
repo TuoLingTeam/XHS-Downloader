@@ -431,10 +431,6 @@ msgstr ""
 msgid "开启监听"
 msgstr ""
 
-#: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:34
-msgid "关于项目"
-msgstr ""
-
 #: C:\Users\You\PycharmProjects\XHS-Downloader\source\TUI\index.py:52
 msgid "微信公众号：驼铃电商技术团"
 msgstr ""

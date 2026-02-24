@@ -150,8 +150,6 @@ KS-Downloader（快手、KuaiShou）：https://github.com/TuoLingTeam/KS-Downloa
             extractAlbumNotesLinksDescription: '提取当前专辑的作品链接至剪贴板',
             modifyScriptSettingsText: '修改用户脚本设置',
             modifyScriptSettingsDescription: '修改用户脚本设置',
-            aboutXHSText: '关于 XHS-Downloader',
-            aboutXHSDescription: '查看 XHS-Downloader 更多信息',
             imageCheckboxTitle: '请选中需要下载的图片',
             scriptServerError: '脚本服务器连接出错，请检查网络连接或脚本服务器状态是否正常！',
             pushTaskError: '脚本服务器未连接，请检查网络连接或脚本服务器状态是否正常！',
@@ -274,8 +272,6 @@ KS-Downloader (KuaiShou): https://github.com/TuoLingTeam/KS-Downloader
             extractAlbumNotesLinksDescription: 'Extract note links from the current album',
             modifyScriptSettingsText: 'Modify Script Settings',
             modifyScriptSettingsDescription: '',
-            aboutXHSText: 'About XHS-Downloader',
-            aboutXHSDescription: '',
             imageCheckboxTitle: 'Please select images to download',
             scriptServerError: 'Server connection error. Please check your network or server status!',
             pushTaskError: 'Server not connected. Please check your network or server status!',
@@ -2322,8 +2318,6 @@ KS-Downloader (KuaiShou): https://github.com/TuoLingTeam/KS-Downloader
             icon: ' ⚙️ ',
             action: showSettings,
             description: t.modifyScriptSettingsDescription
-                       }, {
-                           text: t.aboutXHSText, icon: ' 📒 ', action: about, description: t.aboutXHSDescription
                        });
 
         // 创建菜单项

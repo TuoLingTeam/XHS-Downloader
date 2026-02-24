@@ -31,7 +31,6 @@ class Index(Screen):
         Binding(key="S", action="settings", description=_("程序设置")),
         Binding(key="R", action="record", description=_("下载记录")),
         Binding(key="M", action="monitor", description=_("开启监听")),
-        Binding(key="A", action="about", description=_("关于项目")),
     ]
 
     def __init__(
@@ -141,9 +140,6 @@ class Index(Screen):
                 self.xhs,
             )
         )
-
-    async def action_about(self):
-        await self.app.push_screen("about")
 
     async def action_record(self):
         await self.app.push_screen("record")
